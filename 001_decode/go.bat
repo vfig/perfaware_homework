@@ -1,5 +1,5 @@
 @echo off
-set DIFF="C:\Program Files\Git\usr\bin\diff.exe" -q
+set DIFF="C:\Program Files\Git\usr\bin\diff.exe" --binary -q
 
 cl 001_decode.c
 if errorlevel 1 goto fail
