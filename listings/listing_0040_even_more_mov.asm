@@ -20,7 +20,9 @@ mov bx, [3458]
 ; Memory-to-accumulator test
 mov ax, [2555]
 mov ax, [16]
+mov al, [1234]
 
 ; Accumulator-to-memory test
 mov [2554], ax
 mov [15], ax
+mov [1233], al
