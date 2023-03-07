@@ -2,7 +2,7 @@
 set DIFF="C:\Program Files\Git\usr\bin\diff.exe" --binary -q
 set NASM="..\nasm.exe"
 
-cl 002_decode.c
+cl /Zi 002_decode.c
 if errorlevel 1 goto fail
 
 set fname=listing_0039_more_mov
